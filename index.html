@@ -15,88 +15,90 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto+Mono&display=swap"
       rel="stylesheet"
     />
-    <title>Hi, I'm Bryan</title>
+    <title>Hi I'm Bryan</title>
   </head>
   <body>
     <div class="container">
-      <div class="nav-bar">
-        <nav class="links">
-          <a class="link home" href="#">HOME</a>
-          <a class="link about" href="#">ABOUT ME</a>
-          <a class="link projects" href="#">PROJECTS</a>
-          <a class="link contact" href="#">CONTACT ME</a>
-        </nav>
+      <div class="header">
+        <header>
+          <a href="#" class="logo-btn">
+            <img class="logo" src="src/pic.png" />
+          </a>
+          <nav>
+            <ul class="nav-bar">
+              <li class="nav-link">
+                <a href="#">HOME</a>
+              </li>
+              <li class="nav-link">
+                <a href="#">ABOUT ME</a>
+              </li>
+              <li class="nav-link">
+                <a href="#">PROJECTS</a>
+              </li>
+              <li class="nav-link">
+                <a href="#">LINKS</a>
+              </li>
+              <li class="nav-link">
+                <a href="#">CONTACT ME</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
       </div>
-      <section>
-        <div class="intro">
-          <h1 class="header">HELLO AND WELCOME!</h1>
-          <h2 class="header--text">
-            My name is Bryan and this is my website. I started this as a project
-            to get more familiar with full-stack developement.
-          </h2>
-        </div>
-      </section>
-      <section>
-        <div class="languages">
-          <h1 class="header">LANGUAGES</h1>
-          <h2 class="header--text">
-            Because of this project, I am going to be learning and aquiring
-            skills in:
-          </h2>
-          <ul class="langs">
-            <li class="lang">
-              <div>
-                <a class="lang-py" href="https://www.python.org/" alt="Python"
-                  ><img class="img" src="src\py-logo.png"
+      <div class="content">
+        <article>
+          <div class="pfp-main">
+            <img class="large-pfp" src="src\pic.png" alt="Large Profile Pic" />
+          </div>
+          <div class="welcome-msg">
+            <h1 class="headline">HELLO AND WELCOME</h1>
+            <p class="headline-content">
+              My name is Bryan and this is my website. I started this as a
+              project to get more familiar with full-stack developement.
+            </p>
+          </div>
+          <div class="description-msg">
+            <h1 class="headline languages">LANGUAGES</h1>
+            <p class="headline-content languages">
+              Because of this project, I am going to be learning and aquiring
+              skills in:
+            </p>
+            <ul class="langs">
+              <li>
+                <a href="#"
+                  ><img
+                    class="logo-img py-logo"
+                    src="src\py-logo.png"
+                    alt="Python"
                 /></a>
-              </div>
-            </li>
-            <li class="lang">
-              <div>
-                <a
-                  href="https://www.javascript.com/"
-                  class="lang-js"
-                  alt="JavaScript"
-                  ><img class="img" src="src\js-logo.png"
+              </li>
+              <li>
+                <a href="#"
+                  ><img class="logo-img" src="src\js-logo.png" alt="JavaScript"
                 /></a>
-              </div>
-            </li>
-            <li class="lang">
-              <div>
-                <a
-                  href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-                  class="lang-html"
-                  alt="HTML"
-                  ><img class="img" src="src\html-logo.png"
+              </li>
+              <li>
+                <a href="#"
+                  ><img class="logo-img" src="src\html-logo.png" alt="HTML"
                 /></a>
-              </div>
-            </li>
-            <li class="lang">
-              <div>
-                <a
-                  href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-                  class="lang-css"
-                  alt="CSS"
-                  ><img class="img" src="src\css-logo.png"
+              </li>
+              <li>
+                <a href="#"
+                  ><img class="logo-img" src="src\css-logo.png" alt="CSS"
                 /></a>
-              </div>
-            </li>
-            <li class="lang">
-              <div>
-                <a
-                  href="https://www.w3schools.com/sql/sql_intro.asp"
-                  class="lang-sql"
-                  alt="SQL"
-                  ><img class="img" src="src\sql-logo.png"
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    class="logo-img sql-logo"
+                    src="src\sql-logo.png"
+                    alt="SQL"
                 /></a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </div>
-    <div class="footer">
-      <footer>Work in progress</footer>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </div>
     </div>
   </body>
 </html>
