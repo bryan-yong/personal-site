@@ -15,19 +15,18 @@ Main header
 }
 
 .logo {
-  height: 50px;
-  width: 50px;
+  height: 65px;
+  width: 65px;
   margin: 20px 20px;
 }
 
-header {
+.header-content {
   display: flex;
   align-items: center;
 }
 
 .nav-bar {
   display: flex;
-  margin-left: 10px;
 
   list-style: none;
   font-family: "Roboto Condensed", sans-serif;
@@ -60,12 +59,14 @@ Main Content
 
 .content {
   display: flex;
+  justify-content: center;
   margin-top: 70px;
 }
 
 .pfp-main {
-  justify-content: center;
-  margin-inline-start: 60em;
+  margin-top: 40px;
+  margin-left: 950px;
+  margin-right: 40px;
 }
 
 .large-pfp {
@@ -86,8 +87,11 @@ Main Content
   border-radius: 55px 55px 15px 55px;
 }
 
+.welcome-content {
+  padding: 15px 20px;
+}
+
 .headline {
-  padding: 10px 15px;
   margin-left: 10px;
   font-family: "Roboto Mono", monospace;
   font-weight: 700;
@@ -96,7 +100,6 @@ Main Content
 }
 
 .headline-content {
-  padding: 15px;
   margin-left: 10px;
   margin-top: 12px;
 
@@ -111,10 +114,15 @@ Main Content
   margin-top: 75px;
   margin-bottom: 65px;
   margin-left: 6em;
+  margin-right: 40px;
   top: 700px;
 
   background: rgb(255, 255, 255, 0.15);
   border-radius: 55px 15px 55px 55px;
+}
+
+.description-content {
+  padding: 15px 20px;
 }
 
 .langs {
@@ -123,6 +131,7 @@ Main Content
   justify-content: space-between;
   padding-inline: 75px;
   padding-block-end: 10px;
+  padding-block-start: 10px;
 }
 
 .logo-img {
